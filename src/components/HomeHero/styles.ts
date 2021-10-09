@@ -46,7 +46,7 @@ export const TextContainer = styled.section` /* container do texto */
   }
   >h2{
     font-size: 3rem;
-    font-weight: 488;/* grossura da fonta KKKK */
+    font-weight: 300;/* grossura da fonta KKKK */
     color: ${({ theme }) => theme.secondary};
   }
   @media(max-width: 1450px ){ /* responsividade da pag */
