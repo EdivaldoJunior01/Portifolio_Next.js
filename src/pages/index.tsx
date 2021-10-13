@@ -4,6 +4,8 @@ import HomeHero from '../components/HomeHero';
 import ExperienciaCertificado from '../components/Experiencia_Certificado';
 import Projetos from '../components/Projetos';
 import Conhecimentos from '../components/Conhecimentos';
+import FormContato from '../components/FormContato';
+import Footer from '../components/Footer';
 export default function Home() {
   return (
     <HomeContainer>
@@ -14,8 +16,9 @@ export default function Home() {
       <ExperienciaCertificado />
       <Projetos/>
       <Conhecimentos/>
-
+      <FormContato/>
     </main>
+    <Footer/> {/* footer vai fora do main pq o main e um container */}
     </HomeContainer>
   ) ;
 
